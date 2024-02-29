@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/house_2"
+        android:iconTint="#A7A7A7"
+        android:title="Home"/>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/wallet_3"
+        android:iconTint="#A7A7A7"
+        android:title="Wallet"/>
+    <item
+        android:id="@+id/track"
+        android:icon="@drawable/car"
+        android:iconTint="#A7A7A7"
+        android:title="Track"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_circle"
+        android:iconTint="#A7A7A7"
+        android:title="Profile"/>
+</menu>
