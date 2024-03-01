@@ -1,13 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".CreateAccount.ForgotPassword.VerificationOtpFragment">
 
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/otp_verification"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:textColor="#A7A7A7"
+        android:text="Enter the 6 digit numbers sent to your email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view1">
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/background_otp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="#A7A7A7"
+        android:text="If you didn’t receive code,  resend after "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="#A7A7A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_view2"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/background_sign_up"
+        android:text="Set New Password"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
